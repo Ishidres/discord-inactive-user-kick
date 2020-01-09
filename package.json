@@ -1,0 +1,26 @@
+{
+  "name": "daily-auto-kick",
+  "version": "1.0.0",
+  "description": "Automatically kicks a user if they haven't sent any messages for a specific time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishidres/daily-auto-kick.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Auto",
+    "Kick",
+    "User"
+  ],
+  "author": "Ishidres (www.ishidres.eu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishidres/daily-auto-kick/issues"
+  },
+  "homepage": "https://github.com/Ishidres/daily-auto-kick#readme"
+}
