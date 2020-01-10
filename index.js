@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 const fs = require("fs");
 const config = require("config.json");
+const package = require("package.json");
 
 var saved_users = {};
 
@@ -15,6 +16,15 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+  // Don't kick bots
+  if (message.author.bot) return;
+
+  // reply when receiving !help in direct message
+  if (message.channel.type === "dm" && !!message.content) {
+    if (message.content.toLowerCase().startsWith("!help"))
+      return message.reply("This bot doesn't offer any commands and has to be set up manually. Please refer to " + package.homepage + " for more information.");
+  }
+
   if (!saved_users[message.author.id])
     saved_users[message.author.id] = {};
 
