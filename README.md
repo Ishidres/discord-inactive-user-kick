@@ -11,5 +11,7 @@ A simple Discord bot to automatically kick inactive server members created for [
 - when mass kicking users the bot might run into ratelimits
 - the bot uses JSON as a "database" which is not recommended for big Discord servers with lots of members; In that case, please use MySQL.
 
+Feel free to improve the bot using pull requests!
+
 ### License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). For more information please have a look at the LICENSE file.
