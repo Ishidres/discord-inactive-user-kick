@@ -1,3 +1,4 @@
 {
-  "token": "BOT TOKEN"
+  "token": "BOT TOKEN",
+  "maxInactivity": 86400000
 }
