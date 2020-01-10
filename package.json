@@ -1,5 +1,5 @@
 {
-  "name": "daily-auto-kick",
+  "name": "discord-inactive-user-kick",
   "version": "1.0.0",
   "description": "Automatically kicks a user if they haven't sent any messages for a specific time.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ishidres/daily-auto-kick.git"
+    "url": "git+https://github.com/Ishidres/discord-inactive-user-kick.git"
   },
   "keywords": [
     "Discord",
@@ -20,7 +20,7 @@
   "author": "Ishidres (www.ishidres.eu)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ishidres/daily-auto-kick/issues"
+    "url": "https://github.com/Ishidres/discord-inactive-user-kick/issues"
   },
-  "homepage": "https://github.com/Ishidres/daily-auto-kick#readme"
+  "homepage": "https://github.com/Ishidres/discord-inactive-user-kick#readme"
 }
