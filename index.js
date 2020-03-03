@@ -13,6 +13,11 @@ if (fs.existsSync(__dirname + "/savedUsers.json"))
 
 client.on('ready', () => {
   console.log(new Date() + ": Logged in as " + client.user.tag);
+
+  if (client.guilds.array().length > 1) {
+    console.log("WARNING: The bot should only be used on one server at once and will now shutdown. Please remove the bot from all server but one!");
+    process.exit();
+  }
 });
 
 client.on('message', message => {
