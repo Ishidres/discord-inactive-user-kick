@@ -45,6 +45,16 @@ client.on('message', message => {
 setInterval(function () {
   var now = new Date().getTime();
   var actions = 0;
+  var all_user = client.users.array();
+
+  // Save all users
+  for (i=0; i<all_users.length; i++) {
+    if (!saved_users[i.id])
+      saved_users[i.id] = {
+        lastMessage: new Date().getTime()
+        guild: client.guilds.array()[0].id
+      }
+  }
 
   Object.keys(saved_users).map(function (i) {
     // Prevent ratelimits
