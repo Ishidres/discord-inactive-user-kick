@@ -53,9 +53,16 @@ setInterval(function () {
   var all_users = client.users.array();
 
   // Save all users
-  for (i=0; i<all_users.length; i++) {
-    if (!saved_users[i.id])
-      saved_users[i.id] = {
+  for (y=0; y<all_users.length; y++) {
+    // Prevent ratelimits
+    if (actions >= 5)
+      return;
+
+    if (all_users[y].id.length < 10)
+      continue;
+
+    if (!saved_users[all_users[y].id])
+      saved_users[all_users[y].id] = {
         lastMessage: new Date().getTime(),
         guild: client.guilds.array()[0].id
       }
