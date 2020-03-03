@@ -50,7 +50,7 @@ client.on('message', message => {
 setInterval(function () {
   var now = new Date().getTime();
   var actions = 0;
-  var all_user = client.users.array();
+  var all_users = client.users.array();
 
   // Save all users
   for (i=0; i<all_users.length; i++) {
