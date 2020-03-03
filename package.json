@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Ishidres/discord-inactive-user-kick/issues"
   },
-  "homepage": "https://github.com/Ishidres/discord-inactive-user-kick#readme"
+  "homepage": "https://github.com/Ishidres/discord-inactive-user-kick#readme",
+  "dependencies": {
+    "discord.js": "11.6.1"
+  }
 }
