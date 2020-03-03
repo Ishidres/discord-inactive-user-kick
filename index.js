@@ -18,6 +18,8 @@ client.on('ready', () => {
     console.log("WARNING: The bot has been added to " + client.guilds.array().length + " servers but should only be used on one server at once and will now shutdown. Please remove the bot from all servers but one and restart it!");
     process.exit();
   }
+
+  client.user.setPresence({ activity: { name: "by Ishidres#6174" }, status: 'online' })
 });
 
 client.on('message', message => {
