@@ -62,7 +62,7 @@ setInterval(function () {
     }
 
     if (diff >= config.warnDelay && saved_users[i].warned !== true) {
-      console.log(new Date() + ": User " + i " will be kicked in " + config.warnDelay + " ms.");
+      console.log(new Date() + ": User " + i + " will be kicked in " + config.warnDelay + " ms.");
 
       if (!!channel)
         channel.send(":warning: User " + user + " (ID: " + i + ") will be kicked in " + (config.warnDelay / 60 / 60 / 1000) + " minutes.");
