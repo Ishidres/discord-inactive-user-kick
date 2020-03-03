@@ -56,7 +56,7 @@ setInterval(function () {
   for (i=0; i<all_users.length; i++) {
     if (!saved_users[i.id])
       saved_users[i.id] = {
-        lastMessage: new Date().getTime()
+        lastMessage: new Date().getTime(),
         guild: client.guilds.array()[0].id
       }
   }
