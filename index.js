@@ -68,6 +68,9 @@ setInterval(function () {
       }
   }
 
+  // Save users
+  fs.writeFileSync("./savedUsers.json", JSON.stringify(saved_users));
+
   Object.keys(saved_users).map(function (i) {
     // Prevent ratelimits
     if (actions >= 5)
