@@ -13,7 +13,8 @@ Note: The bot uses JSON as a "database" which is not recommended for very large 
 Feel free to improve the bot using pull requests!
 
 ### Questions
-You can ask me, the bot's developer, for help if you need it. Use my [website](https://ishidres.eu) or by using the badges below to contact me:
+You can ask me, the bot's developer, for help if you need it. Use my [website](https://ishidres.eu) or the badges below to contact me:
+
 [![Twitter](https://img.shields.io/twitter/url?label=Tweet%20me&style=social&url=https%3A%2F%2Ftwitter.com%2FIshidres_Ent)](https://twitter.com/Ishidres_Ent)
 [![Patreon](https://img.shields.io/badge/dynamic/json?url=https://shieldsio-patreon.herokuapp.com/Ishidres&label=Patreon&query=$.message&color=f86754
 )](https://patreon.com/Ishidres)
