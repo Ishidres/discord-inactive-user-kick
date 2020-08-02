@@ -3,7 +3,7 @@ A simple Discord bot to automatically kick inactive server members created for [
 
 ## Setup
 - install [Node.js](https://nodejs.org/en/)
-- install [discord.js@11.6.4](https://www.npmjs.com/package/discord.js/v/11.6.1) using `npm i discord.js@11.6.4`
+- install [discord.js@11.6.4](https://www.npmjs.com/package/discord.js/v/11.6.4) using `npm i discord.js@11.6.4`
 - create a new Discord bot [here](https://discordapp.com/developers/applications/)
 - add the bot's token to `config.json` and adjuste the configuration
 - run the bot by using `nohup node index.js &` or any other command you prefer
