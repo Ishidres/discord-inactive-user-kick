@@ -8,7 +8,7 @@ A simple Discord bot to automatically kick inactive server members created for [
 - add the bot's token to `config.json` and adjuste the configuration
 - run the bot by using `nohup node index.js &` or any other command you prefer
 
-Note: The bot uses JSON as a "database" which is not recommended for very large Discord servers with lots of members In that case, please use MySQL. Servers with under 100K users can ignore this warning.
+Note: The bot uses JSON as a "database" which is not recommended for very large Discord servers with lots of members. In that case, please use MySQL. Servers with under 100K users can ignore this warning.
 
 Feel free to improve the bot using pull requests!
 
