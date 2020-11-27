@@ -50,9 +50,9 @@ client.on('message', message => {
 
 // checking for users to kick every 10 minutes (600 000 ms)
 setInterval(function () {
-  var now = new Date().getTime();
-  var actions = 0;
-  var all_users = client.users.array();
+  let now = new Date().getTime();
+  let actions = 0;
+  let all_users = client.users.array();
 
   // Save all users
   for (y=0; y<all_users.length; y++) {
@@ -78,9 +78,9 @@ setInterval(function () {
     if (actions >= 5)
       return;
 
-    var diff = now - saved_users[i].lastMessage;
-    var user = client.users.get(i);
-    var channel = client.channels.get(config.warnMessagesChannel);
+    let diff = now - saved_users[i].lastMessage;
+    let user = client.users.get(i);
+    let channel = client.channels.get(config.warnMessagesChannel);
 
     if (!user) {
       user = "UserIsOffline#0000";
