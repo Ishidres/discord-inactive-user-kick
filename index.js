@@ -56,13 +56,10 @@ setInterval(function () {
 
   // Save all users
   for (y=0; y<all_users.length; y++) {
-    // Prevent ratelimits
-    if (actions >= 5)
-      return;
-
     if (all_users[y].id.length < 10)
       continue;
 
+    // Save users even if they haven't messaged anything yet
     if (!saved_users[all_users[y].id])
       saved_users[all_users[y].id] = {
         lastMessage: new Date().getTime(),
