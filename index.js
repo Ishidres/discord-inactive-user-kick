@@ -106,7 +106,7 @@ setInterval(function () {
           channel.send("🔨 " + member.user.tag + " has been kicked due to inactivity.");
       });
 
-      actions += 2;
+      actions++;
       delete saved_users[i];
       fs.writeFileSync("./savedUsers.json", JSON.stringify(saved_users));
     }
