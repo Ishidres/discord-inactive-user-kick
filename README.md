@@ -16,8 +16,7 @@ Feel free to improve the bot using pull requests!
 You can ask me, the bot's developer, for help if you need it. Use my [website](https://ishidres.eu) or the badges below to contact me:
 
 [![Twitter](https://img.shields.io/twitter/url?label=Tweet%20me&style=social&url=https%3A%2F%2Ftwitter.com%2FIshidres)](https://twitter.com/Ishidres)
-[![Patreon](https://img.shields.io/badge/dynamic/json?url=https://shieldsio-patreon.herokuapp.com/Ishidres&label=Patreon&query=$.message&color=f86754
-)](https://patreon.com/Ishidres)
+[![Patreon](https://img.shields.io/badge/dynamic/json?url=https://www.patreon.com/api/campaigns/658859&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&color=f86754)](https://patreon.com/Ishidres)
 [![GitHub followers](https://img.shields.io/github/followers/Ishidres?style=social)](https://github.com/Ishidres)
 
 ### License
