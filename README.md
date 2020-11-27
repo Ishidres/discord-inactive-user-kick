@@ -12,6 +12,9 @@ Note: The bot uses JSON as a "database" which is not recommended for very large 
 
 Feel free to improve the bot using pull requests!
 
+### Unsure?
+You can set `testing` to `true` in `config.json` to only simulate kicks without actually kicking a user to test it first.
+
 ### Questions
 You can ask me, the bot's developer, for help if you need it. Use my [website](https://ishidres.eu) or the badges below to contact me:
 
