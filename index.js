@@ -99,12 +99,15 @@ setInterval(function () {
       console.log(new Date() + ": Kicking User " + i + " due to inactivity.");
       var guild = client.guilds.get(saved_users[i].guild);
 
-      guild.fetchMember(i).then(member => {
-        member.kick("Kicked due to inactivity.");
+      // Don't really kick users if testing is enabled
+      if (config.testing !== true) {
+        guild.fetchMember(i).then(member => {
+          member.kick("Kicked due to inactivity.");
 
-        if (!!channel)
-          channel.send("🔨 " + member.user.tag + " has been kicked due to inactivity.");
-      });
+          if (!!channel)
+            channel.send("🔨 " + member.user.tag + " has been kicked due to inactivity.");
+        });
+      }
 
       actions++;
       delete saved_users[i];

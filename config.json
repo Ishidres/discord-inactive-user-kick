@@ -2,5 +2,6 @@
   "token": "BOT TOKEN",
   "maxInactivity": 86400000,
   "warnDelay": 43200000,
-  "warnMessagesChannel": "CHANNEL ID"
+  "warnMessagesChannel": "CHANNEL ID",
+  "testing": false
 }
