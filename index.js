@@ -19,7 +19,7 @@ client.on('ready', () => {
     process.exit();
   }
 
-  client.user.setPresence({ activity: { name: "by Ishidres#6174" }, status: 'online' })
+  client.user.setPresence({ activity: { name: "by Ishidres#5758" }, status: 'online' })
 });
 
 client.on('message', message => {
