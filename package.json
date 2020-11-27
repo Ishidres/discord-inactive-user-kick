@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Ishidres/discord-inactive-user-kick#readme",
   "dependencies": {
-    "discord.js": "11.6.1"
+    "discord.js": "11.6.4"
   }
 }
